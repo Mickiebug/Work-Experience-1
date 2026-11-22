@@ -747,6 +747,33 @@ img {
 }
 
 @media (max-width: 768px) {
+  .site-header .container {
+    flex-wrap: wrap;
+    gap: 12px 16px;
+  }
+.hero-media {
+    width: 100%;
+    max-width: 768px;
+}
+
+.hero-inner {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .trust-list {
+    gap: 12px 24px;
+  }
+
+.site-header--home {
+    flex-wrap: wrap;
+    gap: 12px 16px;
+  }
+
   h1 {
     font-size: 40px;
   }
@@ -773,6 +800,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .playbook-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .contact-layout {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -784,8 +815,35 @@ img {
 }
 
 @media (max-width: 480px) {
+  .hero-media {
+    width: 100%;
+    max-width: 480px;
+}
+
+.hero-inner {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .trust-list {
+    gap: 12px 24px;
+  }
+
+.site-header--home {
+    flex-wrap: wrap;
+    gap: 12px 16px;
+  }
+
   h1 {
     font-size: 34px;
+  }
+
+  .playbook-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .card-grid {
